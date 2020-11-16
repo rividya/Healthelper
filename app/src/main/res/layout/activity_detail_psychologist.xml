@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundhome"
+    tools:context=".DetailPsychologist">
+
+    <ImageView
+        android:id="@+id/button_back_detailarticle"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_chevron_left_white_24dp"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Back"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="45dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/doctor3"/>
+    
+    <FrameLayout
+        android:layout_width="410dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/whitewstroke"/>
+    
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Dr. Cryssa Piter"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="440dp"
+        android:text="Psychologist"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="420dp"
+        android:text="6 years"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"/>
+
+    <TableRow
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="About"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="530dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.."
+        android:textSize="16dp"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Make an appointment"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/purple"
+        android:layout_marginTop="665dp"
+        android:layout_marginLeft="80dp"
+        android:clickable="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#7F8CEF</color>
+    <color name="colorAccent">#4C5175</color>
+    <color name="colorYellow">#FFF500</color>
+    <color name="colorPurple">#BAC1F8</color>
+
+    <!-- 1st Gradient color -->
+    <color name="colorLightBlue">#7F8CEF</color>
+    <color name="colorLightGreen">#BCE7D9</color>
+    <!-- ./ 1st Gradient color -->
+</resources>

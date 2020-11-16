@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundhome"
+    tools:context=".Home">
+    
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:text="Worry Less,\nLive Healthier"
+        android:textColor="@color/colorAccent"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <FrameLayout
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/gradient"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/onlinebooking"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="60dp"/>
+    
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="200dp"
+        android:text="Special Package"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="180dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"/>
+
+    <Button
+        android:id="@+id/special_package_home"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/purple"
+        android:text="Booking Now"
+        android:textColor="@color/colorPrimary"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="40dp"
+        android:text="All Packages"/>
+    
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/onlinebooking1"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="Package A"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="390dp"/>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="50.000 - 200.000"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="420dp"/>
+
+    <Button
+        android:id="@+id/button_booking_A"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="300dp"
+        android:text="Booking"
+        android:textSize="10dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/purple"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/onlinebooking1"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="Package B"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="470dp"/>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="50.000 - 100.000"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="500dp"/>
+
+    <Button
+        android:id="@+id/button_booking_B"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="300dp"
+        android:text="Booking"
+        android:textSize="10dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/purple"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/onlinebooking1"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="Package C"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="550dp"/>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="50.000 - 75.000"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="580dp"/>
+
+    <Button
+        android:id="@+id/button_booking_C"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="300dp"
+        android:text="Booking"
+        android:textSize="10dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/purple"
+        android:clickable="true"/>
+
+    <FrameLayout
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/lightpurple"/>
+
+    <ImageView
+        android:id="@+id/button_home_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/home"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:text="Home"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="705dp"
+        android:layout_marginLeft="25dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/search"
+        android:clickable="true"
+        android:id="@+id/button_article_home"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:text="Article"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="705dp"
+        android:layout_marginLeft="135dp" />
+
+    <ImageView
+        android:id="@+id/button_booking_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/calendar"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="Booking"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="705dp"
+        android:layout_marginLeft="235dp"/>
+
+    <ImageView
+        android:id="@+id/button_profile_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/user"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:text="Profile"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="705dp"
+        android:layout_marginLeft="345dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article">
+
+    
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/article1"/>
+    
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"/>
+    
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="120dp"
+        android:text="See Details"
+        android:clickable="true"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="160dp"
+        android:background="@color/colorAccent"/>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="190dp"
+        android:src="@drawable/article2"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="190dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="280dp"
+        android:text="See Details"
+        android:clickable="true"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="320dp"
+        android:background="@color/colorAccent"/>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/article3"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="440dp"
+        android:text="See Details"
+        android:clickable="true"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="480dp"
+        android:background="@color/colorAccent"/>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="510dp"
+        android:src="@drawable/article4"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="510dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="600dp"
+        android:text="See Details"
+        android:clickable="true"/>
+
+
+
+
+    <FrameLayout
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/lightpurple"/>
+
+    <ImageView
+        android:id="@+id/button_home_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/home"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:text="Home"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="705dp"
+        android:layout_marginLeft="25dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/search"
+        android:clickable="true"
+        android:id="@+id/button_article_home"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:text="Article"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="705dp"
+        android:layout_marginLeft="135dp" />
+
+    <ImageView
+        android:id="@+id/button_booking_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/calendar"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="Booking"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="705dp"
+        android:layout_marginLeft="235dp"/>
+
+    <ImageView
+        android:id="@+id/button_profile_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/user"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:text="Profile"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="705dp"
+        android:layout_marginLeft="345dp"/>
+</RelativeLayout>
