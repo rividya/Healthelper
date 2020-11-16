@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailArticle">
+    tools:context=".BookingHistory">
 
     <ImageView
-        android:id="@+id/button_back_detail_article"
+        android:id="@+id/button_back_booking_history"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginTop="10dp"
@@ -25,30 +25,77 @@
         android:layout_marginLeft="45dp"/>
 
     <TextView
-        android:layout_width="380dp"
-        android:layout_height="100dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="70dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
-        android:textStyle="bold"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="HISTORY"
+        android:textSize="20dp"
         android:textColor="@color/colorAccent"
-        android:textSize="25dp" />
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="105dp"
+        android:textAlignment="center"
+        android:gravity="center"/>
 
     <ImageView
-        android:layout_width="300dp"
-        android:layout_height="150dp"
-        android:layout_marginLeft="55dp"
-        android:layout_marginTop="190dp"
-        android:src="@drawable/detailarticle"/>
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/doctor1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"/>
+    
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Dr. James Hadi"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="130dp"/>
 
     <TextView
-        android:layout_width="380dp"
-        android:layout_height="275dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="370dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="Package A"
         android:textSize="18dp"
-        android:textColor="@color/colorAccent"/>
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="160dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="220dp"
+        android:background="@color/colorAccent"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/doctor1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Dr. James Hadi"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="260dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="Package A"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="290dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/colorAccent"/>
 
     <FrameLayout
         android:layout_width="410dp"
@@ -57,7 +104,7 @@
         android:background="@drawable/lightpurple"/>
 
     <ImageView
-        android:id="@+id/button_home_detail_article"
+        android:id="@+id/button_home_booking_history"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginLeft="30dp"
@@ -81,7 +128,7 @@
         android:layout_marginTop="670dp"
         android:src="@drawable/search"
         android:clickable="true"
-        android:id="@+id/button_article_detail_article"/>
+        android:id="@+id/button_article_booking_history"/>
 
     <TextView
         android:layout_width="50dp"
@@ -93,7 +140,7 @@
         android:layout_marginLeft="135dp" />
 
     <ImageView
-        android:id="@+id/button_booking_detail_article"
+        android:id="@+id/button_booking_booking_history"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginLeft="245dp"
@@ -111,7 +158,7 @@
         android:layout_marginLeft="235dp"/>
 
     <ImageView
-        android:id="@+id/button_profile_detail_article"
+        android:id="@+id/button_profile_booking_history"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginLeft="350dp"

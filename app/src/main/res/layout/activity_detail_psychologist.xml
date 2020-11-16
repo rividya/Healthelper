@@ -8,7 +8,7 @@
     tools:context=".DetailPsychologist">
 
     <ImageView
-        android:id="@+id/button_back_detailarticle"
+        android:id="@+id/button_back_detail_psychologist"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginTop="10dp"
@@ -46,12 +46,12 @@
         android:textSize="25dp"
         android:textStyle="bold"
         android:layout_marginTop="400dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="20dp"/>
 
     <TextView
         android:layout_width="150dp"
         android:layout_height="25dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="440dp"
         android:text="Psychologist"
         android:textSize="18dp"
@@ -81,18 +81,19 @@
         android:textSize="25dp"
         android:textStyle="bold"
         android:layout_marginTop="490dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="20dp"/>
 
     <TextView
         android:layout_width="350dp"
         android:layout_height="120dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="530dp"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.."
         android:textSize="16dp"
         android:textColor="@color/colorAccent"/>
 
     <Button
+        android:id="@+id/button_make_an_appointment"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:text="Make an appointment"

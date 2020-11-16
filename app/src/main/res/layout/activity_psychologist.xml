@@ -8,7 +8,7 @@
     tools:context=".Psychologist">
 
     <ImageView
-        android:id="@+id/button_back_detailarticle"
+        android:id="@+id/button_back_psychologist"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginTop="10dp"
@@ -25,18 +25,6 @@
         android:layout_marginTop="12dp"
         android:layout_marginLeft="45dp"/>
 
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="30dp"
-        android:text="History"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="@color/colorPrimary"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="300dp"
-        android:textAlignment="textEnd"
-        android:gravity="end"
-        android:clickable="true"/>
 
     <FrameLayout
         android:layout_width="415dp"
@@ -70,6 +58,7 @@
         android:layout_marginLeft="80dp"/>
 
     <Button
+        android:id="@+id/button_booking_1"
         android:layout_width="70dp"
         android:layout_height="30dp"
         android:layout_marginTop="135dp"
@@ -111,6 +100,7 @@
         android:layout_marginLeft="80dp"/>
 
     <Button
+        android:id="@+id/button_booking_2"
         android:layout_width="70dp"
         android:layout_height="30dp"
         android:layout_marginTop="225dp"
@@ -152,6 +142,7 @@
         android:layout_marginLeft="80dp"/>
 
     <Button
+        android:id="@+id/button_booking_3"
         android:layout_width="70dp"
         android:layout_height="30dp"
         android:layout_marginTop="315dp"
@@ -193,6 +184,7 @@
         android:layout_marginLeft="80dp"/>
 
     <Button
+        android:id="@+id/button_booking_4"
         android:layout_width="70dp"
         android:layout_height="30dp"
         android:layout_marginTop="405dp"
@@ -234,6 +226,7 @@
         android:layout_marginLeft="80dp"/>
 
     <Button
+        android:id="@+id/button_booking_5"
         android:layout_width="70dp"
         android:layout_height="30dp"
         android:layout_marginTop="495dp"
@@ -275,6 +268,7 @@
         android:layout_marginLeft="80dp"/>
 
     <Button
+        android:id="@+id/button_booking_6"
         android:layout_width="70dp"
         android:layout_height="30dp"
         android:layout_marginTop="585dp"
@@ -316,6 +310,7 @@
         android:layout_marginLeft="80dp"/>
 
     <Button
+        android:id="@+id/button_booking_7"
         android:layout_width="70dp"
         android:layout_height="30dp"
         android:layout_marginTop="675dp"
@@ -324,4 +319,5 @@
         android:text="Booking"
         android:textColor="@color/colorAccent"
         android:clickable="true"/>
+
 </RelativeLayout>
