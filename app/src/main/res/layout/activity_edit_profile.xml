@@ -56,9 +56,11 @@
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="235dp"
         android:hint="John Doe"
         android:textColorHint="@color/colorAccent"
+        android:background="@drawable/whitewstroke2"
+        android:paddingLeft="10dp"
         android:inputType="text"/>
 
     <TextView
@@ -74,9 +76,11 @@
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="315dp"
         android:hint="johndoe@example.com"
         android:textColorHint="@color/colorAccent"
+        android:background="@drawable/whitewstroke2"
+        android:paddingLeft="10dp"
         android:inputType="textEmailAddress"/>
 
     <TextView
@@ -92,9 +96,11 @@
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="390dp"
+        android:layout_marginTop="395dp"
         android:hint="+62834569010"
         android:textColorHint="@color/colorAccent"
+        android:background="@drawable/whitewstroke2"
+        android:paddingLeft="10dp"
         android:inputType="phone"/>
 
     <TextView
@@ -110,9 +116,11 @@
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="470dp"
+        android:layout_marginTop="475dp"
         android:hint="South Jakarta"
         android:textColorHint="@color/colorAccent"
+        android:background="@drawable/whitewstroke2"
+        android:paddingLeft="10dp"
         android:inputType="text"/>
 
     <TextView
@@ -128,8 +136,11 @@
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="550dp"
-        android:inputType="textPassword"/>
+        android:layout_marginTop="555dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorAccent"
+        android:background="@drawable/whitewstroke2"
+        android:paddingLeft="10dp"/>
 
     <Button
         android:id="@+id/button_save_changes"

@@ -30,8 +30,9 @@
         android:layout_marginTop="280dp"
         android:gravity="center_horizontal"
         android:text="Sign Up"
+        android:textColor="@color/colorAccent"
         android:textAlignment="center"
-        android:textSize="20dp" />
+        android:textSize="20dp"/>
 
     <TextView
         android:layout_width="125dp"
@@ -57,13 +58,19 @@
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="350dp"
-        android:hint="Email"/>
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/colorAccent"
+        android:background="@drawable/whitewstroke2"/>
 
     <EditText
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="410dp"
+        android:textColorHint="@color/colorAccent"
+        android:paddingLeft="10dp"
+        android:background="@drawable/whitewstroke2"
         android:hint="Password"/>
 
     <Button

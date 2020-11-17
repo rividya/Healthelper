@@ -42,6 +42,7 @@
         android:layout_marginTop="280dp"
         android:text="Login"
         android:textSize="20dp"
+        android:textColor="@color/colorAccent"
         android:textAlignment="center"
         android:gravity="center_horizontal"/>
 
@@ -58,38 +59,54 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="350dp"
         android:hint="Name"
+        android:textColorHint="@color/colorAccent"
+        android:paddingLeft="10dp"
+        android:background="@drawable/whitewstroke2"
         android:inputType="text"/>
 
     <EditText
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="405dp"
         android:hint="Email"
-        android:inputType="textEmailAddress"/>
+        android:textColorHint="@color/colorAccent"
+        android:paddingLeft="10dp"
+        android:background="@drawable/whitewstroke2"
+        android:inputType="textEmailAddress"
+        />
 
     <EditText
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="460dp"
         android:hint="Phone Number"
+        android:textColorHint="@color/colorAccent"
+        android:paddingLeft="10dp"
+        android:background="@drawable/whitewstroke2"
         android:inputType="phone"/>
 
     <EditText
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="515dp"
         android:hint="Address"
+        android:textColorHint="@color/colorAccent"
+        android:paddingLeft="10dp"
+        android:background="@drawable/whitewstroke2"
         android:inputType="text"/>
 
     <EditText
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="570dp"
         android:hint="Password"
+        android:textColorHint="@color/colorAccent"
+        android:paddingLeft="10dp"
+        android:background="@drawable/whitewstroke2"
         android:inputType="textPassword"/>
 
     <Button
