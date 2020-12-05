@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroundgradient1"
-    tools:context=".signup">
+    tools:context=".SignUp">
 
     <TextView
         android:layout_width="230dp"
@@ -54,6 +54,7 @@
         android:layout_marginLeft="45dp"/>
 
     <EditText
+        android:id="@+id/txt_name"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
@@ -66,6 +67,7 @@
         android:inputType="text"/>
 
     <EditText
+        android:id="@+id/txt_email"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
@@ -79,6 +81,7 @@
         />
 
     <EditText
+        android:id="@+id/txt_phone_number"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
@@ -91,6 +94,7 @@
         android:inputType="phone"/>
 
     <EditText
+        android:id="@+id/txt_address"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
@@ -103,6 +107,7 @@
         android:inputType="text"/>
 
     <EditText
+        android:id="@+id/txt_password"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"

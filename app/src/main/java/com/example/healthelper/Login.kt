@@ -3,7 +3,6 @@ package com.example.healthelper
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.activity_login.*
 
 class Login : AppCompatActivity() {
@@ -13,7 +12,7 @@ class Login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         button_login_signup.setOnClickListener {
-            val intent = Intent(this, signup::class.java)
+            val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
         }
 
