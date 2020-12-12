@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemList"
+    android:layout_marginBottom="70dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/onlinebooking1"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="nama paket"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="20dp"/>
+
+
+    <Button
+        android:id="@+id/button_booking_A"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:text="Booking"
+        android:textSize="10dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/purple"
+        android:clickable="true"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="harga"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-20dp"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>

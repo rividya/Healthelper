@@ -64,112 +64,16 @@
         android:layout_height="30dp"
         android:layout_marginTop="340dp"
         android:layout_marginLeft="40dp"
-        android:text="All Packages"/>
-    
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="390dp"
-        android:layout_marginLeft="40dp"
-        android:src="@drawable/onlinebooking1"/>
+        android:text="All Packages"
+        android:textColor="@color/colorAccent"/>
 
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="20dp"
-        android:text="Package A"
-        android:textColor="@color/colorAccent"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="390dp"/>
-
-    <TextView
-        android:layout_width="120dp"
-        android:layout_height="20dp"
-        android:text="50.000 - 200.000"
-        android:textColor="@color/colorAccent"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="420dp"/>
-
-    <Button
-        android:id="@+id/button_booking_A"
-        android:layout_width="70dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="300dp"
-        android:text="Booking"
-        android:textSize="10dp"
-        android:textColor="@color/colorPrimary"
-        android:background="@drawable/purple"
-        android:clickable="true"/>
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="470dp"
-        android:layout_marginLeft="40dp"
-        android:src="@drawable/onlinebooking1"/>
-
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="20dp"
-        android:text="Package B"
-        android:textColor="@color/colorAccent"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="470dp"/>
-
-    <TextView
-        android:layout_width="120dp"
-        android:layout_height="20dp"
-        android:text="50.000 - 100.000"
-        android:textColor="@color/colorAccent"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="500dp"/>
-
-    <Button
-        android:id="@+id/button_booking_B"
-        android:layout_width="70dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="480dp"
-        android:layout_marginLeft="300dp"
-        android:text="Booking"
-        android:textSize="10dp"
-        android:textColor="@color/colorPrimary"
-        android:background="@drawable/purple"
-        android:clickable="true"/>
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="550dp"
-        android:layout_marginLeft="40dp"
-        android:src="@drawable/onlinebooking1"/>
-
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="20dp"
-        android:text="Package C"
-        android:textColor="@color/colorAccent"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="550dp"/>
-
-    <TextView
-        android:layout_width="120dp"
-        android:layout_height="20dp"
-        android:text="50.000 - 75.000"
-        android:textColor="@color/colorAccent"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="580dp"/>
-
-    <Button
-        android:id="@+id/button_booking_C"
-        android:layout_width="70dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="560dp"
-        android:layout_marginLeft="300dp"
-        android:text="Booking"
-        android:textSize="10dp"
-        android:textColor="@color/colorPrimary"
-        android:background="@drawable/purple"
-        android:clickable="true"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvUser"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginTop="370dp"
+        android:padding="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
     <FrameLayout
         android:layout_width="410dp"

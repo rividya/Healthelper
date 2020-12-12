@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.healthelper">
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -11,10 +12,9 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
-        android:usesCleartextTraffic="true"
-        >
-
-        <activity android:name=".EditProfile"/>
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ItemList"></activity>
+        <activity android:name=".EditProfile" />
         <activity android:name=".Profile" />
         <activity android:name=".BookingHistory" />
         <activity android:name=".DetailBooking" />
