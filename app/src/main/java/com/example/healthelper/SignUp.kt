@@ -41,13 +41,13 @@ class SignUp : AppCompatActivity() {
             }
 
             if (phone_number.isEmpty()) {
-                txt_phone_number.error = "Phone number at least 11 character"
+                txt_phone_number.error = "Phone number required"
                 txt_phone_number.requestFocus()
                 return@setOnClickListener
             }
 
             if (password.isEmpty()) {
-                txt_password.error = "Password required at least 6 character"
+                txt_password.error = "Password required"
                 txt_password.requestFocus()
                 return@setOnClickListener
             }

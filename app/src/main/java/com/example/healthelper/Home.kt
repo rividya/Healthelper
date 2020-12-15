@@ -17,20 +17,20 @@ class Home : AppCompatActivity() {
             startActivity(intent)
         }
 
-        button_booking_A.setOnClickListener {
-            val intent = Intent(this, Psychologist::class.java)
-            startActivity(intent)
-        }
+//        button_booking_A.setOnClickListener {
+//            val intent = Intent(this, Psychologist::class.java)
+//            startActivity(intent)
+//        }
 
-        button_booking_B.setOnClickListener {
-            val intent = Intent(this, Psychologist::class.java)
-            startActivity(intent)
-        }
+//        button_booking_B.setOnClickListener {
+//            val intent = Intent(this, Psychologist::class.java)
+//            startActivity(intent)
+//        }
 
-        button_booking_C.setOnClickListener {
-            val intent = Intent(this, Psychologist::class.java)
-            startActivity(intent)
-        }
+//        button_booking_C.setOnClickListener {
+//            val intent = Intent(this, Psychologist::class.java)
+//            startActivity(intent)
+//        }
 
 
         button_home_home.setOnClickListener {

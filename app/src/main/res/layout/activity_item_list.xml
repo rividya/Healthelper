@@ -21,6 +21,7 @@
         android:src="@drawable/onlinebooking1"/>
 
     <TextView
+        android:id="@+id/tvPsikolog"
         android:layout_width="100dp"
         android:layout_height="20dp"
         android:text="nama paket"

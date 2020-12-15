@@ -17,7 +17,7 @@ object HealthelperService {
 
     fun getHealthelperService(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://sheltered-fjord-73299.herokuapp.com/")
+            .baseUrl("http://192.168.1.8:8000")
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
