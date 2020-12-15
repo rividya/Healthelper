@@ -68,7 +68,7 @@
         android:textColor="@color/colorAccent"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvUser"
+        android:id="@+id/rvPaket"
         android:layout_width="match_parent"
         android:layout_height="290dp"
         android:layout_marginTop="370dp"

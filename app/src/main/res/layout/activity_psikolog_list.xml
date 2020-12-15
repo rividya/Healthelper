@@ -21,6 +21,7 @@
             android:layout_marginLeft="5dp"/>
 
         <TextView
+            android:id="@+id/tvPsikolog"
             android:layout_width="150dp"
             android:layout_height="20dp"
             android:text="nama dokter"

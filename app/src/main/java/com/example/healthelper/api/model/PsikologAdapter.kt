@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.healthelper.R
 import com.example.healthelper.api.response.PsikologResponse
 import kotlinx.android.synthetic.main.activity_item_list.view.*
+import kotlinx.android.synthetic.main.activity_psikolog_list.view.*
 import kotlinx.android.synthetic.main.activity_psychologist.view.*
 import kotlinx.android.synthetic.main.activity_psychologist.view.rvPsikolog
 

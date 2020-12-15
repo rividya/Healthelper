@@ -2,6 +2,7 @@ package com.example.healthelper.api.model
 
 import com.example.healthelper.api.request.RegisterRequest
 import com.example.healthelper.api.request.loginRequest
+import com.example.healthelper.api.response.PaketResponse
 import com.example.healthelper.api.response.PsikologResponse
 import com.example.healthelper.api.response.RegisterResponse
 import com.example.healthelper.api.response.loginResponse
@@ -20,4 +21,7 @@ interface HealthelperInterface {
 
     @GET("psikolog")
     fun getPsikolog(): Call<ArrayList<PsikologResponse>>
+
+    @GET("pakets")
+    fun getPaket(): Call<List<PaketResponse>>
 }
